@@ -1,0 +1,129 @@
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(img/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+}
+
+.title {
+    width: 80%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.buzzwords {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 600px;
+    gap: 50px;
+}
+
+.buzzword1 {
+    width:20%;
+}
+
+.cards {
+    display: flex;
+    height: 400px;
+}
+
+.card1 {
+    width: 30%;
+    margin:auto;
+}
+
+.image1{
+    background-image: url(img/bg-showcase-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+}
+
+.image2{
+    background-image: url(img/bg-showcase-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+}
+
+.image3{
+    background-image: url(img/bg-showcase-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 0.85rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    gap: 60px;
+}
+
+h4 {
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.testimonials1{
+    width: 25%
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(2px -2px 5px #00000066);
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(img/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.signup h2 {
+    color: white;
+}
